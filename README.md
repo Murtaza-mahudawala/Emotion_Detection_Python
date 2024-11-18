@@ -19,11 +19,10 @@ Prerequisites
 Ensure you have the following installed:
 
 Python 3.7 or later
-TensorFlow 2.x
+TensorFlow 
 Other libraries: numpy, pandas, matplotlib, tensorflow.keras, etc.
 To install dependencies, run:
 
-bash
 Copy code
 pip install -r requirements.txt
 Dataset
@@ -33,31 +32,17 @@ Getting Started
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/your-repo-link.git
+git clone https://github.com/.git
 cd your-repo-link
 2. Training the Model
 To train the model on your dataset:
 
-Place your dataset in the data/ directory.
-Ensure the images are organized in subfolders by emotion class (e.g., data/happy/, data/sad/).
-Run the training script:
-bash
-Copy code
-python train.py
-3. Testing the Model
-To evaluate the model on test images, use:
-
-bash
-Copy code
-python test.py --image path/to/image.jpg
 File Structure
 train.py: Script to train the model.
 test.py: Script to test the model with individual images.
-model.h5: Pretrained model file.
 requirements.txt: Python dependencies.
-data/: Folder for storing training and testing datasets.
 Results
-Accuracy: Achieved X% accuracy on the validation set.
+Accuracy: Achieved 51% accuracy on the validation set.
 Sample Predictions:
 
 Applications
@@ -78,5 +63,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contact
 For any queries, feel free to reach out:
 
-Your Name: LinkedIn Profile
-Email: your-email@example.com
+Your Name: Murtuza Mahudawala
+Email: mmahudawala4@gmail.com
