@@ -32,7 +32,7 @@ Getting Started
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/.git
+git clone https://github.com/Murtaza-mahudawala/Emotion_Detection_Python
 cd your-repo-link
 2. Training the Model
 To train the model on your dataset:
